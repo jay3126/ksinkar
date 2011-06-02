@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xbel>
+<xbel folded="no" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv" dbusName="konversation">
+ <folder folded="yes">
+  <title>Research Interests</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="bookmark_folder"/>
+   </metadata>
+  </info>
+  <bookmark href="irc://freenode/#math">
+   <title>#math (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/##chemistry">
+   <title>##chemistry (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/##physics">
+   <title>##physics (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/##electronics">
+   <title>##electronics (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark icon="" href="irc://freenode/#osgeo">
+   <title>#osgeo</title>
+   <info>
+    <metadata owner="http://www.kde.org"/>
+   </info>
+  </bookmark>
+  <bookmark icon="" href="irc://freenode/#opencv">
+   <title>#opencv</title>
+   <info>
+    <metadata owner="http://www.kde.org"/>
+   </info>
+  </bookmark>
+ </folder>
+ <folder folded="yes">
+  <title>Programming</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="bookmark_folder"/>
+   </metadata>
+  </info>
+  <bookmark href="irc://freenode/##c++">
+   <title>##c++ (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#friendly-coders">
+   <title>#friendly-coders (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark icon="" href="irc://freenode/##c++-basic">
+   <title>##c++-basic</title>
+   <info>
+    <metadata owner="http://www.kde.org"/>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/##programming">
+   <title>##programming (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#osdev">
+   <title>#osdev (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#eclipse">
+   <title>#eclipse (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/##asm">
+   <title>##asm (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+ </folder>
+ <folder folded="no">
+  <title>Web Technologies</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="bookmark_folder"/>
+   </metadata>
+  </info>
+  <bookmark href="irc://freenode/#drupal-support">
+   <title>#drupal-support (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#drupal">
+   <title>#drupal (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#httpd">
+   <title>#httpd (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#html">
+   <title>#html (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+ </folder>
+ <folder folded="yes">
+  <title>Linux</title>
+  <bookmark href="irc://freenode/#bash">
+   <title>#bash (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/##linux-coders">
+   <title>##linux-coders (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#linux-sensors">
+   <title>#linux-sensors (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark icon="" href="irc://freenode/#etherboot">
+   <title>#etherboot</title>
+   <info>
+    <metadata owner="http://www.kde.org"/>
+   </info>
+  </bookmark>
+  <bookmark icon="" href="irc://freenode/#linuxforums">
+   <title>#linuxforums</title>
+   <info>
+    <metadata owner="http://www.kde.org"/>
+   </info>
+  </bookmark>
+  <bookmark icon="" href="irc://freenode/#etherboot">
+   <title>#etherboot</title>
+   <info>
+    <metadata owner="http://www.kde.org"/>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#osdev">
+   <title>#osdev (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#htc-linux">
+   <title>#htc-linux (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#meego">
+   <title>#meego (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc:/#kernel">
+   <title>#kernel (Open and Free Technology Community)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc:/#kernelnewbies">
+   <title>#kernelnewbies (Open and Free Technology Community)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/##linux-overflow">
+   <title>##linux-overflow (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/##kernel">
+   <title>##kernel (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+ </folder>
+ <folder folded="yes">
+  <title>Embedded</title>
+  <bookmark href="irc://freenode/##microcontrollers">
+   <title>##microcontrollers (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#armlinux">
+   <title>#armlinux (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#ubuntu-arm">
+   <title>#ubuntu-arm (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#fedora-arm">
+   <title>#fedora-arm (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/##arm">
+   <title>##arm (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#openarmlab">
+   <title>#openarmlab (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#avr">
+   <title>#avr (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#arduino">
+   <title>#arduino (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/##hardware">
+   <title>##hardware (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#meego-arm">
+   <title>#meego-arm (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#davinci">
+   <title>#davinci (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#oe">
+   <title>#oe (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#ubuntu-arm">
+   <title>#ubuntu-arm (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#gst-ti">
+   <title>#gst-ti (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#rowboat">
+   <title>#rowboat (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#linux-omap">
+   <title>#linux-omap (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#beagle">
+   <title>#beagle (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+ </folder>
+ <folder folded="yes">
+  <title>Social</title>
+  <bookmark href="irc://freenode/#startups">
+   <title>#startups (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#savannah">
+   <title>#savannah (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#gsoc">
+   <title>#gsoc (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#freenode">
+   <title>#freenode (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+ </folder>
+ <folder folded="yes">
+  <title>GNU</title>
+  <bookmark href="irc://freenode/#hurd">
+   <title>#hurd (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#grub">
+   <title>#grub (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#gnu">
+   <title>#gnu (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+ </folder>
+ <folder folded="yes">
+  <title>Fedora</title>
+  <bookmark icon="" href="irc://freenode/#fedora-admin">
+   <title>#fedora-admin</title>
+   <info>
+    <metadata owner="http://www.kde.org"/>
+   </info>
+  </bookmark>
+  <bookmark icon="" href="irc://freenode/#Fedora-eol">
+   <title>#Fedora-eol</title>
+   <info>
+    <metadata owner="http://www.kde.org"/>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#fedora">
+   <title>#fedora (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#fedora-india">
+   <title>#fedora-india (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#fedora-kde">
+   <title>#fedora-kde (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+ </folder>
+ <folder folded="yes">
+  <title>KDE</title>
+  <bookmark href="irc://freenode/#konversation">
+   <title>#konversation (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="irc://freenode/#kde">
+   <title>#kde (Freenode)</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="application-octet-stream"/>
+    </metadata>
+   </info>
+  </bookmark>
+ </folder>
+ <bookmark href="irc://freenode/#merb">
+  <title>#merb (Freenode)</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="application-octet-stream"/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="irc://freenode/#ruby-lang">
+  <title>#ruby-lang (Freenode)</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="application-octet-stream"/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="irc://freenode/#ruby">
+  <title>#ruby (Freenode)</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="application-octet-stream"/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="irc://freenode/##javascript">
+  <title>##javascript (Freenode)</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="application-octet-stream"/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="irc://freenode/#jquery">
+  <title>#jquery (Freenode)</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="application-octet-stream"/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="irc://oftc/">
+  <title>OFTC</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="application-octet-stream"/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="irc://freenode/#web">
+  <title>#web (Freenode)</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="application-octet-stream"/>
+   </metadata>
+  </info>
+ </bookmark>
+</xbel>
