@@ -16,6 +16,7 @@ src
 netbeans*
 examples.desktop
 
+.tilda/
 .ICEauthority
 .VirtualBox/
 .adobe/
@@ -58,7 +59,6 @@ examples.desktop
 .ido.last~
 .irb-history
 .irb_history
-.irbrc
 .irssi/
 .kde/cache-intellecap.net/
 .kde/cache-ksinkar-intellecap
