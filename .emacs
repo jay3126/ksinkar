@@ -1,4 +1,8 @@
 (ido-mode)
 (show-paren-mode)
 (desktop-save-mode 1)
+(color-theme-initialize)
+(color-theme-midnight)
+(tool-bar-mode)
+(scroll-bar-mode)
 (put 'upcase-region 'disabled nil)
