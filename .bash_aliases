@@ -7,19 +7,20 @@ alias emacs='emacs -nw'
 
 # If this is an xterm set the title to user@host:dir
 
-function get_mf_dir {
-  if [[ "$PWD" =~ mostfit_inst ]]; then
-      MOSTFIT_DIR=`echo $PWD | sed 's/\/home\/ksinkar\/mostfit_installations\///'`
+function get_workspace {
+  if [[ "$PWD" =~ workspace ]]; then
+      SED_SCRIPT='s_'$HOME'/workspace/__'
+      WORKSPACE=`echo $PWD | sed $SED_SCRIPT`
   else
-      MOSTFIT_DIR=$PWD
+      WORKSPACE=$PWD
   fi
-  echo $MOSTFIT_DIR
+  echo $WORKSPACE
 }
 
 
 case "$TERM" in
 xterm*|rxvt*)
-     trap 'echo -ne "\e]0;`get_mf_dir`: $BASH_COMMAND\007"' DEBUG
+     trap 'echo -ne "\e]0;`get_workspace`: $BASH_COMMAND\007"' DEBUG
     ;;
 *)
     ;;
