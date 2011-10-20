@@ -1,5 +1,6 @@
 (ido-mode)
 (show-paren-mode)
+(diary)
 (desktop-save-mode 1)
 (color-theme-initialize)
 (color-theme-midnight)
@@ -7,5 +8,8 @@
 (scroll-bar-mode)
 (put 'upcase-region 'disabled nil)
 (set-default-font "-unknown-Monaco-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1")
-
-
+(add-to-list 'load-path "/home/ksinkar/.emacs.d/")
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "/home/ksinkar/.emacs.d//ac-dict")
+(ac-config-default)
+(put 'scroll-left 'disabled nil)
