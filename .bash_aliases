@@ -66,7 +66,7 @@ function _git_prompt() {
     fi
 }
 function i() {
-    PS1="`_git_prompt`"'\[\e[1;34m\]\W ॐ\[\e[0m\] '
+    PS1="`_git_prompt`"'\[\e[1;34m\]\W ॐ \[\e[0m\] '
 
 }
 PROMPT_COMMAND=i
