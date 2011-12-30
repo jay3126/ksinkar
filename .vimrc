@@ -1,6 +1,6 @@
 "----[Gvim]----------
 "set the font
-set guifont=Inconsolata\ Medium\ 11
+set guifont=Inconsolata\ Medium\ 13
 
 "control guioptions
 set guioptions=aivc
@@ -287,8 +287,8 @@ nnoremap <C-Tab> :tabnext<CR>
 nnoremap <C-S-Tab> :tabprev<CR>
 
 "moving between buffers
-"nnoremap <C-j> :tabnext<CR>
-"nnoremap <C-k> :tabprev<CR>
+nnoremap <C-j> :tabnext<CR>
+nnoremap <C-k> :tabprev<CR>
 
 "use Alt-num to switch to a given tab
 "nnoremap <A-1> 1gt<CR>
