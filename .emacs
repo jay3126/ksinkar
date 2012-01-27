@@ -1,3 +1,22 @@
+;; redefining emacs keybindings to generic keyboard shortcuts
+(cua-mode) ;; C-c and C-x are for copying and pasting if a  region has been selected other-wise they perform the normal emacs functions
+(global-set-key (kbd "C-l") 'goto-line)			;; for going to line number
+(global-set-key (kbd "C-s") 'save-buffer)		;; for saving a buffer
+(global-set-key (kbd "C-f") 'isearch-forward)		;; for finding in a buffer
+(global-set-key (kbd "C-<prior>") 'previous-buffer)	;; going to the previous buffer
+(global-set-key (kbd "C-<next>") 'next-buffer)		;; going to the next buffer
+(global-set-key (kbd "C-a") 'mark-whole-buffer)		;; Ctrl + a to select all
+(global-set-key (kbd "C-<tab>") 'ido-display-buffer)	;; for seeing all the open buffers
+(global-set-key (kbd "C-o") 'ido-find-file)		;; for opening a file
+
+;; allows for copying and pasting between x11 applications, uses the global clipboard
+;; (setf interprogram-cut-function 'x-select-text)
+;; (setf interprogram-paste-function 'x-cut-buffer-or-selection-value)
+
+;; splitting windows
+(global-set-key (kbd "C-x |") 'split-window-horizontally)		;; for opening a file
+(global-set-key (kbd "C-x -") 'split-window-vertically)		        ;; for opening a file
+
 (ido-mode)
 (show-paren-mode)
 (diary)
@@ -7,12 +26,15 @@
 (tool-bar-mode)
 (scroll-bar-mode)
 (put 'upcase-region 'disabled nil)
+
+;; auto-suggestions as we type
 (set-default-font "-unknown-Ubuntu Mono-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1")
 (add-to-list 'load-path "/home/ksinkar/.emacs.d/")
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "/home/ksinkar/.emacs.d//ac-dict")
 (ac-config-default)
 (put 'scroll-left 'disabled nil)
+
 ;; sets tabs to spaces for haml files
 (add-hook 'haml-mode-hook
 	  '(lambda ()
@@ -47,3 +69,4 @@
 ;;     (lambda ()
 ;;       (setq haskell-program-name "ghci")
 ;;       (setq haskell-ghci-program-name "ghci6"))))
+
