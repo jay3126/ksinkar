@@ -2,12 +2,13 @@
 (cua-mode) ;; C-c and C-x are for copying and pasting if a  region has been selected other-wise they perform the normal emacs functions
 (global-set-key (kbd "C-l") 'goto-line)			;; for going to line number
 (global-set-key (kbd "C-s") 'save-buffer)		;; for saving a buffer
-(global-set-key (kbd "C-f") 'isearch-forward)		;; for finding in a buffer
+(global-set-key (kbd "C-f") 'isearch-repeat-forward)	;; for finding in a buffer
 (global-set-key (kbd "C-<prior>") 'previous-buffer)	;; going to the previous buffer
 (global-set-key (kbd "C-<next>") 'next-buffer)		;; going to the next buffer
 (global-set-key (kbd "C-a") 'mark-whole-buffer)		;; Ctrl + a to select all
-(global-set-key (kbd "C-<tab>") 'ido-display-buffer)	;; for seeing all the open buffers
+(global-set-key (kbd "C-<tab>") 'other-window)	        ;; for moving cursor between split-windows
 (global-set-key (kbd "C-o") 'ido-find-file)		;; for opening a file
+(global-set-key (kbd "C-<f4>") 'ido-kill-buffer)        ;; for closing a tab (browser like behaviour)
 
 ;; allows for copying and pasting between x11 applications, uses the global clipboard
 ;; (setf interprogram-cut-function 'x-select-text)
