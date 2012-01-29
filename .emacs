@@ -2,17 +2,19 @@
 (cua-mode) ;; C-c and C-x are for copying and pasting if a  region has been selected other-wise they perform the normal emacs functions
 (global-set-key (kbd "C-l") 'goto-line)			;; for going to line number
 (global-set-key (kbd "C-s") 'save-buffer)		;; for saving a buffer
-(global-set-key (kbd "C-f") 'isearch-repeat-forward)	;; for finding in a buffer
+(global-set-key (kbd "C-f") 'isearch-forward)	        ;; for finding in a buffer
+;; once you entered the text in C-f, you can just go through the finds using the pgup and pgdwn key
+(define-key isearch-mode-map [next]
+  'isearch-repeat-forward)
+(define-key isearch-mode-map [prior]
+  'isearch-repeat-backward)
 (global-set-key (kbd "C-<prior>") 'previous-buffer)	;; going to the previous buffer
 (global-set-key (kbd "C-<next>") 'next-buffer)		;; going to the next buffer
 (global-set-key (kbd "C-a") 'mark-whole-buffer)		;; Ctrl + a to select all
 (global-set-key (kbd "C-<tab>") 'other-window)	        ;; for moving cursor between split-windows
 (global-set-key (kbd "C-o") 'ido-find-file)		;; for opening a file
 (global-set-key (kbd "C-<f4>") 'ido-kill-buffer)        ;; for closing a tab (browser like behaviour)
-
-;; allows for copying and pasting between x11 applications, uses the global clipboard
-;; (setf interprogram-cut-function 'x-select-text)
-;; (setf interprogram-paste-function 'x-cut-buffer-or-selection-value)
+(setq x-select-enable-clipboard t)                      ;; enabling copying and pasting between applications
 
 ;; indentation
 (define-key global-map (kbd "RET") 'newline-and-indent) ;; indents on going to the newline
