@@ -2,6 +2,10 @@
 alias l.='ls -d .* --color=auto'
 alias emacs='emacs -nw'
 
+#opencv 
+PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig
+export PKG_CONFIG_PATH
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 
