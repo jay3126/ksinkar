@@ -34,8 +34,8 @@
 		  (indent-region (region-beginning) (region-end) nil))))))
 
 ;; splitting windows
-(global-set-key (kbd "C-x |") 'split-window-horizontally)		;; for opening a file
-(global-set-key (kbd "C-x -") 'split-window-vertically)		        ;; for opening a file
+(global-set-key (kbd "C-|") 'split-window-horizontally)		;; for opening a file
+(global-set-key (kbd "C--") 'split-window-vertically)		        ;; for opening a file
 
 (ido-mode)
 (show-paren-mode)
