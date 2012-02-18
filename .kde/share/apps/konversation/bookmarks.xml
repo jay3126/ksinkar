@@ -138,6 +138,14 @@
     </metadata>
    </info>
   </bookmark>
+  <bookmark href="irc://freenode/mediawiki">
+    <title>#mediawiki (Freenode)</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+	<bookmark:icon name="unknown"/>
+      </metadata>
+    </info>
+  </bookmark>
   <bookmark href="irc://freenode/##javascript">
    <title>##javascript (Freenode)</title>
    <info>
