@@ -13,7 +13,7 @@
 (global-set-key (kbd "C-a") 'mark-whole-buffer)		;; Ctrl + a to select all
 (global-set-key (kbd "C-<tab>") 'other-window)	        ;; for moving cursor between split-windows
 (global-set-key (kbd "C-o") 'ido-find-file)		;; for opening a file
-(global-set-key (kbd "C-<f4>") 'ido-kill-buffer)        ;; for closing a tab (browser like behaviour)
+(global-set-key (kbd "C-<f4>") 'kill-this-buffer)       ;; for closing a tab (browser like behaviour)
 (global-set-key (kbd "M-f") 'menu-bar-open)             ;; for opening the file menu
 (setq x-select-enable-clipboard t)                      ;; enabling copying and pasting between applications
 
