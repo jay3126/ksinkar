@@ -1,3 +1,13 @@
+;; before you use this .emacs
+;; Please follow the following instructions:-
+;; If you are on Ubuntu please run the following commands
+;; # apt-get install emacs-goodies-el
+;; If you are on Fedora please run the following commands
+;; # yum install emacs-color-theme
+;; For auto-complete to work properly, download the package from the following site and install it using the instructions given on the site
+;; http://cx4a.org/software/auto-complete/
+;; To enable diary, create an empty file named diary in your home directory
+
 ;; redefining emacs keybindings to generic keyboard shortcuts
 (cua-mode) ;; C-c and C-x are for copying and pasting if a  region has been selected other-wise they perform the normal emacs functions
 (global-set-key (kbd "C-l") 'goto-line)			;; for going to line number
