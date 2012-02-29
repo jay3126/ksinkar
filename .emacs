@@ -2,6 +2,8 @@
 ;; Please follow the following instructions:-
 ;; If you are on Ubuntu please run the following commands
 ;; # apt-get install emacs-goodies-el
+;; for enabling haml mode
+;; # apt-get install haml-elisp 
 ;; If you are on Fedora please run the following commands
 ;; # yum install emacs-color-theme
 ;; For auto-complete to work properly, download the package from the following site and install it using the instructions given on the site
