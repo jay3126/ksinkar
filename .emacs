@@ -8,6 +8,8 @@
 ;; # yum install emacs-color-theme
 ;; For auto-complete to work properly, download the package from the following site and install it using the instructions given on the site
 ;; http://cx4a.org/software/auto-complete/
+;; For auto-parenthesis to work properly, download the package .el file from the following site and put in the load path -> ~/.emacs.d/
+;; http://code.google.com/p/autopair/
 ;; To enable diary, create an empty file named diary in your home directory
 
 ;; redefining emacs keybindings to generic keyboard shortcuts
@@ -46,32 +48,41 @@
 		  (indent-region (region-beginning) (region-end) nil))))))
 
 ;; splitting windows
-(global-set-key (kbd "C-|") 'split-window-horizontally)		;; for opening a file
-(global-set-key (kbd "C--") 'split-window-vertically)		        ;; for opening a file
+(global-set-key (kbd "C-|") 'split-window-horizontally)		;; for splitting a window horizontally
+(global-set-key (kbd "C--") 'split-window-vertically)		;; for splitting a window vertically
 
-(ido-mode)
-(show-paren-mode)
-(diary)
-(desktop-save-mode 1)
-(color-theme-initialize)
-(color-theme-midnight)
-(tool-bar-mode)
-(scroll-bar-mode)
+(ido-mode)			;; enabling listing of file names
+(show-paren-mode)		;; enabling highlighting of parenthesis
+(diary)				;; enabling diary mode
+(desktop-save-mode 1)		;; enabling desktop save mode
+(tool-bar-mode 0)		;; disabling the toolbar
+(scroll-bar-mode 0)		;; disabling the scrollbar
 (put 'upcase-region 'disabled nil)
+(put 'scroll-left 'disabled nil)
+(color-theme-initialize)	;; initializing color themes
+(color-theme-midnight)		;; using the midnight color theme
+;(global-linum-mode 1)           ;; enabling seeing line numbers in the l.h.s. buffer margin
+
+(set-default-font "-unknown-Ubuntu Mono-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") ;; setting the default font to ubuntu mono
 
 ;; auto-suggestions as we type
-(set-default-font "-unknown-Ubuntu Mono-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1")
 (add-to-list 'load-path "/home/ksinkar/.emacs.d/")
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "/home/ksinkar/.emacs.d//ac-dict")
 (ac-config-default)
-(put 'scroll-left 'disabled nil)
+
+;; simulating the electric-pair-mode, auto parenthesis
+(require 'autopair)
+(autopair-global-mode)                                     ;; enable autopair in all buffers
 
 ;; sets tabs to spaces for haml files
 (add-hook 'haml-mode-hook
 	  '(lambda ()
 	     (setq indent-tabs-mode nil)
 	     (define-key haml-mode-map "\C-m" 'newline-and-indent)))
+
+;; opens rake files in ruby mode
+(add-to-list 'auto-mode-alist '("\\.rake" . ruby-mode))
 
 ;; haskell mode configuration
 ;; (setq auto-mode-alist
