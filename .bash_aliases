@@ -1,6 +1,6 @@
 #personal aliases
 alias l.='ls -d .* --color=auto'
-alias emacs='emacs -nw'
+alias emacs='emacs -nw -q'
 
 #for the ability to use `pkg-config --cflags --libs opencv` while compiling opencv programs
 if [ -d /usr/local/lib/pkgconfig ]; then
@@ -10,6 +10,7 @@ fi
     
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
+PATH=$PATH:$HOME'/bin'
 
 # If this is an xterm set the title to user@host:dir
 
