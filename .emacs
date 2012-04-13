@@ -84,6 +84,9 @@
 ;; opens rake files in ruby mode
 (add-to-list 'auto-mode-alist '("\\.rake" . ruby-mode))
 
+;; opens less style files in css mode
+(add-to-list 'auto-mode-alist '("\\.less" . css-mode))
+
 ;; haskell mode configuration
 ;; (setq auto-mode-alist
 ;;       (append auto-mode-alist
