@@ -43,6 +43,7 @@
 						     rspec-mode      python-mode
 						     c-mode          c++-mode
 						     objc-mode       latex-mode
+						     html-mode       css-mode
 						     plain-tex-mode))
 		(let ((mark-even-if-inactive transient-mark-mode))
 		  (indent-region (region-beginning) (region-end) nil))))))
