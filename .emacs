@@ -32,7 +32,7 @@
 (setq x-select-enable-clipboard t)                      ;; enabling copying and pasting between applications
 
 ;; indentation
-(define-key global-map (kbd "RET") 'newline-and-indent) ;; indents on going to the newline
+(define-key global-map (kbd "RET") 'reindent-then-newline-and-indent) ;; indents on going to the newline
 ;; pasted lines are automatically indented
 (dolist (command '(yank yank-pop))
   (eval `(defadvice ,command (after indent-region activate)
@@ -60,14 +60,20 @@
 (scroll-bar-mode 0)		;; disabling the scrollbar
 (put 'upcase-region 'disabled nil)
 (put 'scroll-left 'disabled nil)
-(color-theme-initialize)	;; initializing color themes
-(color-theme-midnight)		;; using the midnight color theme
+
 ;(global-linum-mode 1)           ;; enabling seeing line numbers in the l.h.s. buffer margin
 
 (set-default-font "-unknown-Ubuntu Mono-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") ;; setting the default font to ubuntu mono
 
-;; auto-suggestions as we type
+;; loading the emacs load path from where the extension libraries are loaded
 (add-to-list 'load-path "/home/ksinkar/.emacs.d/")
+
+;; color-themes
+(require 'color-theme)
+(color-theme-initialize)	;; initializing color themes
+(color-theme-midnight)		;; using the midnight color theme
+
+;; auto-suggestions as we type
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "/home/ksinkar/.emacs.d//ac-dict")
 (ac-config-default)
